@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>body属性及注释标记的应用</title>
+    <style>
+      body {
+        color: white;
+        background-color: #6633ff;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+      }
+
+      hr:first-child {
+        border-color: #00ff00;
+        border-style: solid;
+        border-width: 1px;
+      }
+
+      hr:last-child {
+        border-color: #ff0066;
+        border-style: solid;
+        border-width: 1px;
+      }
+
+      div {
+        border: 1px dotted #660033;
+        padding-left: 0;
+        padding-top: 0;
+      }
+
+      p {
+        text-indent: 2em; /* 添加对p标签的样式设置，实现首行缩进 */
+      }
+    </style>
+  </head>
+
+  <body>
+    <span>body的属性应用</span><br />
+    <div>
+      <span>在div中插入标题字、水平分隔线和段落</span>
+      <h1>设计彩色页面</h1>
+      <hr />
+      <p>
+        HTML（Hyper Text Mark - up
+        Language）即超文本标记语言，是WWW的描述语言，由Tim Berners -
+        Lee提出。设计HTML语言的目的是为了能把存放在一台电脑中的文本或图形与另一台电脑中的文本或图形方便地联系在一起，形成有机的整体，人们不用考虑具体信息是在当前电脑上还是在网络的其他电脑上。
+      </p>
+      <hr />
+    </div>
+  </body>
+</html>
