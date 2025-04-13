@@ -1,0 +1,62 @@
+<!-- prj_3_2.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>支持音频、视频播放的网页</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0 auto;
+            padding-top: 40px;
+            display: inline-block;
+        }
+        li {
+            float: left;
+            margin: 20px;
+        }
+        div {
+            height: 250px;
+            background-color: #99cc00;
+            text-align: center;
+        }
+        marquee {
+            font-size: 16px;
+            padding: 4px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 标题 -->
+    <h2>明月几时有</h2>
+    <hr>
+
+    <!-- 歌词内容 -->
+    <font face="楷体" size="4" color="blue">
+        明月几时有?把酒问青天。<br>
+        不知天上宫阙,今夕是何年。<br>
+        我欲乘风归去,又恐琼楼玉宇,高处不胜寒,起舞弄清影,何似在人间。<br>
+        转朱阁,低绮户,照无眠。<br>
+        不应有恨,何事长向别时圆。<br>
+        人有悲欢离合,月有阴晴圆缺,此事古难全。<br>
+        但愿人长久,千里共婵娟。<br>
+    </font>
+    <hr>
+    <!-- 多媒体展示区域 -->
+    <div>
+        <ul>
+            <li><embed src="trees/Sleep Away.mp3" loop="true" autostart="true" width="200" height="50"></embed></li>
+            <li><embed src="trees/Sleep Away.mp4" loop="true" autostart="false" width="200" height="150"></embed></li>
+            <li><embed src="trees/Sleep Away.mp3" loop="false" autostart="false" width="200" height="50"></embed></li>
+        </ul>
+    </div>
+
+    <!-- 滚动字幕 -->
+    <marquee direction="left" behavior="alternate" onMouseOver="this.stop()" onMouseOut="this.start()">
+        但愿人长久，千里共婵娟。
+    </marquee>
+</body>
+</html>
