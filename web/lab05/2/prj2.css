@@ -1,0 +1,52 @@
+img {
+    width: 186px;
+    height: 205px;
+}
+
+#div0 {
+    width: 720px;
+    height: 600px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0099FF;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#div0 h3 {
+    text-align: center;
+    font-size: 32px;
+    color: red;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-style: double;
+    border-color: #9999CC;
+    float: left;
+    width: 208px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div a img {
+    border-width: 10px;
+    border-style: groove;
+    border-color: #9999CC;
+}
+
+div a:hover img {
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #9999CC;
+}
